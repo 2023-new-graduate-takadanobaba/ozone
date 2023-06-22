@@ -21,14 +21,14 @@
    - 入力された文字列が数値変換できるか調べる
      - char型の変数aにnumを格納する
      - CharacterクラスのisDigitメソッドを引数としてSystem.out.printlnを記述する（※１）
-     - 出力結果をis=に格納する
+     - 出力結果をisNumに格納する
      
 - 出力
    - 入力に応じた結果を出力する
       - if文で場合分けする
-          - bがtureの場合
+          - isNumがtureの場合
              - System.out.plintln("これは数字です")
-          - bがfalseの場合
+          - isNumがfalseの場合
               - System.out.plintln("数字ではありません")
      
 - 動作確認
