@@ -9,14 +9,13 @@ public class MultipleOf3 {
 		int num =0;
 		boolean notNum = false;
 		
-		// 出力
-		System.out.println("数字を入力してください。");
 		
 //		入力
-		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
 //		★ここから繰り返しスタート
 		do {	
+			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+			System.out.println("数字を入力してください。3");
 			String str = reader.readLine();
 			notNum=false;
 			
@@ -25,7 +24,7 @@ public class MultipleOf3 {
 				num = Integer.parseInt(str);
 				
 			} catch (NumberFormatException Num) {
-				System.out.println("数字を入力してください。2");
+//				System.out.println("数字を入力してください。2");
 				notNum=true;
 			} 
 			
